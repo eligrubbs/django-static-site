@@ -4,5 +4,5 @@ This is a webapp I am building with Django but solely to practice the frontend a
 
 Any and all data will be mocked. I might create the corresponding applications, but the data inside will be mocked.
 
-I will call the webpage `Intertia`.
+I will call the webpage `Inertia`.
 
