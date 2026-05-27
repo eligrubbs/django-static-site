@@ -1,1 +1,1 @@
-function e(){let e=document.createElement(`div`);return e.innerHTML=`Hello Vite`,e}document.body.appendChild(e());
+function e(){let e=document.createElement(`div`);return e.innerHTML=`Hello Vitess`,e}document.body.appendChild(e());

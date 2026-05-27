@@ -1,12 +1,15 @@
-{% load static %}
+<!-- {% load static %} -->
+{% load django_vite %}
 
 <!DOCTYPE html>
 <html>
   <head>
     <title>Inertia Page</title>
+    {% vite_hmr_client %}
   </head>
   <body>
-    <script src="{% static 'js/index-bundle.js' %}"></script>
-    <p>Hello World</p>
+    {% vite_asset 'assets/index.js' %}
+    <!-- <script src="{% static 'js/index-bundle.js' %}"></script> -->
+    <p>Hello World!</p>
   </body>
 </html>
