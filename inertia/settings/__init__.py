@@ -1,0 +1,1 @@
+from inertia.settings.base_settings import *
